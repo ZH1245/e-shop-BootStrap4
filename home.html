@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./stylesheets/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top"
+    >
+      <!--fixed-top!-->
+      <a class="navbar-brand" href="https://e-shop-bootstrap-zain.herokuapp.com"
+        ><img
+          class="img-fluid"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLVBtPeguJu2sP9ri0FZ7VcroQyI3xL4AGZQ&usqp=CAU"
+          alt="LOGO"
+      /></a>
+      <button
+        class="navbar-toggler"
+        data-target="#my-nav"
+        data-toggle="collapse"
+        aria-controls="my-nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="my-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#collections"
+              tabindex="-1"
+              aria-disabled="true"
+              >Collections</a
+            >
+          </li>
+          <li class="nav-item" id="cart">
+            <a class="nav-link" href="#bag" tabindex="-1" aria-disabled="true"
+              ><i class="fas fa-shopping-cart" aria-hidden="true"></i>My Cart</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div id="my-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            class="active"
+            data-target="#my-carousel"
+            data-slide-to="0"
+            aria-current="location"
+          ></li>
+          <li data-target="#my-carousel" data-slide-to="1"></li>
+          <li data-target="#my-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href=""
+              ><img
+                class="d-block carousel-img"
+                src="https://www.gulahmedshop.com/pub/media/codazon/slideshow/cache/1900x600/w/e/web-lawn-21-banner-new-pc.jpg"
+                alt="GulAhmad"
+            /></a>
+            <div class="carousel-caption d-none d-md-block text-light">
+              <a href="" class="caption1"
+                ><h5>GulAhmad</h5>
+                <p>Now Available</p></a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img
+                class="d-block carousel-img"
+                src="https://www.gulahmedshop.com/pub/media/codazon/slideshow/cache/1900x600/n/e/new-lawn-banner-21-latest-pc-2.jpg"
+                alt="Khadli New Arrivals"
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <a href="" class="caption2">
+                <h5>Khaadi</h5>
+                <p>New Arrivals</p>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img
+                class="d-block carousel-img"
+                src="https://cdn.shopify.com/s/files/1/0184/5074/3360/files/chikan_kari3_a67d169a-085f-49cd-a288-580d91d0366d_1880x.jpg?v=1614839452"
+                alt="Saya Available Now"
+              />
+            </a>
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <a href="" class="caption3">
+                <h5>Saya</h5>
+                <p>New Collection</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#my-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#my-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="container brands">
+      <ul class="list-group">
+        <li>
+          <a href=""
+            ><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS0AAACnCAMAAABzYfrWAAAAk1BMVEX///9+fn4ekM54eHjAwMB2dnaPj497e3t1dXQAisyvr6+am53Dw8Pm6OkAiMvm8PhAmtLN3OipzOdvqdFdqdnz8/PV1dXNzc2TlJanp6fh4eHv7++urq6Ghofa29zM4/K72e62uLkAhMp/sdYxldBsa2uy0ehtsNrt9vsAfshMms2VxOSSu9mCud7Y5/Fko8+gwt1vJMsPAAAE2UlEQVR4nO2abZuaOBSGk4mAijjbdhAHxOrs2E67bXf//69bUEjOCRDEt9a5nnu+DAGTcBMOyQEhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/D7ixj/9rJNFsihJXBXbDGvjkmQ1vP2/X/8i/CxKfj3RkteNXVEYyANqe3zry7Gn9n+77tN/9hRjPBIi8qrGgunxjZ3PYjc+sHtm5Z8mD4T5VyEeGPONVdFW998f0LxWPO60NRtLjpoVtupCdVtbHRfpE5fzID7M2fZkw+tZ63MKhtwk/bZST1owWzceW0fbmrhsxfVZS28xpPleW1kgbe7flq+D1rDe99ry36GtqaprGRK0RL+tUMkG924r0bElyIY132NrS4KWHmR3bivSA2Dsmja14ba1II9DtdU3+33bMkGLz0KOwGkrIrehN9NTrPu29ayDVj64eaet3ET44jqk78LWTMcWFQ1u3mWLRPjy4fEubJnZYxm0WlZ0Thy2pjTCx3+GrfW5tnIatLJdwBgXo22VV8h0/4NI1gWhy1ZCZHnlL9ttydzn5JkY+ceSF/1b5h3ITCys2nN9+U6zFbKglVlrutKWDmvjg61UD4ulw1ZEZc1Ety0ZNC7QVAVHUvYvb85/D/V6WXHJ+PFmJ7e1ebFtsXXi5OFtf9jIBK2kxZZX2qrb8FLuwWUrliTCr4TLlkXR5LZlStuOy5YsbXXVZAeAL0+Mzx/Z5tdHPk7kIcZfzNaSXMal+PNtcd6+fW8tJ8u4QEZF3PJKzBL7RFsr8jiUsdNW4DWaNLaqncQAP5jbOqTPTE3Ultr/0FRs2Xr7SPnnxw+2vakPy6muTKRRyVQLOs3WjJ5fPS3peCaG6bogDUmT2lYwXe8x7vebqb7GpS29ESQlC9NfYkslUVSc28zUzGQ9zicM8eGFbs6fquNogNHDQHf3NFvk7KTSCSD3XH7aZqvOHpn6rDuCjS1ld57YqvreNd/6ObGjPC+Y/6ovOTm1II8vYCuWlOmqwmSy22ytHLbi42wFo1lBEraNrR5bvTOIz/WRdOlbrX3Os8VTWs3H97VsueLWxWyRWUSd3zrL1nPfE+1qtiyuY4uvUfwzbVH379IWy3Cq8Cxb686J1K1tBdeyxUJNoet0W/Slhb1MuZIt0/fmOvE6tug8olheb0nXh9mi0zc/ZOjp/bVsec2E03VssTSnNMNgqC2a0rJTi+751gXuxJYUm23r5IwNt9URb5itMrmS+7nJejRs0ZcWyn4f4s5vXWK+5S8ZfmxsVft83ffzbLF8VIctaWU9bFt05tZ8iXt1W43cD10nujM2g22xgdFhi2PbYimtkV39DWzZnT8+B9H7HUTDVtu0cpAtmtIKG7Xf3pY61dbku3h86bMlltanQ0rtSltju7TC88svkuoj46U5zmt7eZTu6BdJemNV2dIVRWKq/69smZorW545WOSNXtc7C1tdfa+brfj3ZU54LdbQ/01oybcWW2LUoIxGzdKKpNiZ1KzpnrY33pneWzyfYr1RxTfTSixMVZHdr8N2Qvs36+xfERw69/Gw+vZI6SoCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzuZ/iTCHkRtgwMMAAAAASUVORK5CYII="
+              alt=""
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img
+              src="data:image/png;base64,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"
+              alt=""
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img
+              src="https://cdn.shopify.com/s/files/1/0184/5074/3360/files/1541509820061-theme_234E9893-5E11-4E64-9209-DB1C5E395E2A.png?v=1546934298"
+              alt=""
+          /></a>
+        </li>
+        <li>
+          <a href=""><img src="" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

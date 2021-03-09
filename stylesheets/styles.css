@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+.navbar {
+  justify-content: space-between;
+  background-color: white;
+}
+/* .navbar-light .navbar-nav .nav-link:hover {
+  color: purple !important;
+} */
+.navbar ul li a:hover {
+  color: purple !important;
+}
+/* .navbar .my-nav .navbar-nav .nav-item .nav-link:hover {
+  color: red !important;
+} */
+
+.img-fluid {
+  width: 150px;
+}
+.fa-shopping-cart {
+  padding-right: 8px;
+}
+.carousel-item {
+  height: 100%;
+}
+.carousel-img {
+  object-fit: contain;
+  width: 100%;
+}
+a {
+  transition: 0.26s;
+}
+.caption2 {
+  color: black;
+}
+.caption1 {
+  color: white;
+}
+.caption1:hover {
+  color: black;
+}
+.caption2:hover {
+  color: red;
+}
+.caption3 {
+  color: white;
+}
+.caption3:hover {
+  color: black;
+}
+.brands ul {
+  display: inline;
+  list-style: none;
+}
+.brands {
+  /* display: inline-block; */
+  /* border: 2px solid red; */
+}
+.brands ul li {
+  width: fit-content;
+  /* border: 2px solid red; */
+  display: inline;
+  padding: 20px;
+}
+/* display: inline; */
+/* } */
+/* .brands ul li {
+  display: flex;
+  border: 2px solid red;
+  width: fit-content;
+} */
+.list-group li img {
+  width: 100px;
+}
