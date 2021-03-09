@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
 body {
-  width: fit-content;
+  width: 100%;
   /* overflow: hidden; */
 }
 .navbar {
