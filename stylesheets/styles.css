@@ -12,7 +12,9 @@
 /* .navbar .my-nav .navbar-nav .nav-item .nav-link:hover {
   color: red !important;
 } */
-
+.nav-item a {
+  font-size: 19px;
+}
 .img-fluid {
   width: 150px;
 }
@@ -48,12 +50,23 @@ a {
   color: black;
 }
 .brands ul {
+  /* border: 2px solid red; */
+  /* margin: auto; */
+  /* width: fit-content; */
   display: inline;
+  /* justify-content: center; */
   list-style: none;
 }
+.caption4 {
+  color: white;
+}
+.caption4:hover {
+  color: rgb(18, 187, 150);
+}
 .brands {
-  /* display: inline-block; */
   /* border: 2px solid red; */
+  /* margin: auto; */
+  /* display: inline-block; */
 }
 .brands ul li {
   width: fit-content;
@@ -71,3 +84,57 @@ a {
 .list-group li img {
   width: 100px;
 }
+.left-panel {
+  height: fit-content;
+  /* position: static; */
+  width: fit-content;
+  /* display: flex; */
+  clear: left;
+}
+.left-panel ul {
+  list-style: none;
+  float: left;
+}
+/* .left-panel,
+.products {
+  border: 2px solid red;
+} */
+.products_container {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.products {
+  width: fit-content;
+  /* align-self: center; */
+  display: flex;
+  /* float: right; */
+  flex-wrap: wrap;
+}
+.card-header {
+  background-color: darkgray !important;
+  font-size: 18px;
+}
+.card {
+  padding: 12px;
+  /* border: 2px solid red; */
+  /* float: right; */
+  overflow: hidden;
+
+  width: fit-content;
+}
+.card button {
+  background-color: purple;
+}
+.card img {
+  width: 300px;
+}
+.card-body,
+.card-text h5 {
+  width: 300px;
+}
+.checkbox input {
+  padding-right: 10px;
+}
+/* * {
+  border: 2px solid red;
+} */
