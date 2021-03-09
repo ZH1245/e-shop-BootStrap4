@@ -107,6 +107,7 @@ a {
 } */
 .products_container {
   display: flex;
+  clear: right;
   /* flex-wrap: wrap; */
 }
 .products {
@@ -153,6 +154,7 @@ a {
 #social ul li a:hover {
   color: purple;
 }
+
 #about_us ul,
 #customer ul {
   list-style: none;
@@ -165,4 +167,7 @@ a {
 #about_us ul li a:hover,
 #customer ul li a:hover {
   color: purple;
+}
+#footer {
+  width: 50%;
 }
