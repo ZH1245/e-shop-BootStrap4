@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+body {
+  width: fit-content;
+  /* overflow: hidden; */
+}
 .navbar {
   justify-content: space-between;
   background-color: white;
@@ -12,6 +17,7 @@
 /* .navbar .my-nav .navbar-nav .nav-item .nav-link:hover {
   color: red !important;
 } */
+
 .nav-item a {
   font-size: 19px;
 }
@@ -135,6 +141,28 @@ a {
 .checkbox input {
   padding-right: 10px;
 }
-/* * {
-  border: 2px solid red;
-} */
+
+#social ul {
+  list-style: none;
+  padding: 0;
+}
+#social ul li a {
+  color: white;
+  text-decoration: none;
+}
+#social ul li a:hover {
+  color: purple;
+}
+#about_us ul,
+#customer ul {
+  list-style: none;
+}
+#about_us ul li a,
+#customer ul li a {
+  text-decoration: none;
+  color: white;
+}
+#about_us ul li a:hover,
+#customer ul li a:hover {
+  color: purple;
+}
