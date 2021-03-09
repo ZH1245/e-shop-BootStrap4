@@ -17,7 +17,10 @@ body {
 /* .navbar .my-nav .navbar-nav .nav-item .nav-link:hover {
   color: red !important;
 } */
-
+.row {
+  justify-content: center;
+  align-self: center;
+}
 .nav-item a {
   font-size: 19px;
 }
