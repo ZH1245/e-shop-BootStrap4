@@ -30,11 +30,10 @@ body {
 .fa-shopping-cart {
   padding-right: 8px;
 }
-.carousel-item {
+.carousel-inner {
   height: 100%;
 }
 .carousel-img {
-  object-fit: contain;
   width: 100%;
 }
 a {
@@ -109,29 +108,48 @@ a {
   border: 2px solid red;
 } */
 .products_container {
-  display: flex;
+  width: 70%;
+  /* display: flex; */
   clear: right;
   /* flex-wrap: wrap; */
 }
+.card img {
+  width: 100%;
+  height: 25em;
+  object-fit: cover;
+}
 /* .products { */
-  /* width: fit-content; */
-  /* align-self: center; */
-  /* display: flex; */
-  /* float: right; */
-  /* flex-wrap: wrap; */
+/* width: fit-content; */
+/* align-self: center; */
+/* display: flex; */
+/* float: right; */
+/* flex-wrap: wrap; */
 /* } */
 .card-header {
   background-color: darkgray !important;
   font-size: 18px;
 }
-
+.img-thumbnail {
+  border: none !important;
+}
+/* .card .img-thumbnail {
+  width: 300px !important;
+} */
 .card {
-  padding: 12px;
+  width: auto;
+  padding: 7px;
+  height: auto;
+
+  /* width: fit-content; */
   /* border: 2px solid red; */
   /* float: right; */
   overflow: hidden;
+  /* max-width:250px; */
+  /* width: 18px; */
+}
 
-  width: fit-content;
+.card-img-top {
+  width: 100px;
 }
 .card button {
   background-color: purple;
@@ -143,9 +161,6 @@ a {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;} */
-  .img-thumbnail{
-  border:none!important;
-}
 
 /* .card-body,
 .card-text h5 {
